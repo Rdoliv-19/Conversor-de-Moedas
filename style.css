@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  
+  background-image: url(/IMG/dolar.jpg);
+  background-color: #000000;
+  background-size: 100%;  
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color:#000000 ;
+  margin: 0 0 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.page-subtitle {
+  color:#000000;
+  margin-top: 5px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.botao{
+    padding: 5px 20px;
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    transition: 1s all;
+}
+
+.botao:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:480px){
+        body{
+       background-repeat: no-repeat;
+       background-size: auto;
+       background-size: 100%;  
+       object-position: 90% 90%;
+       
+    }
+}

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="page-title">Conversor de moedas</h1>
     <div class="container">
         <h1 class="page-title">
           Conversor de moedas
@@ -16,6 +15,12 @@
         <p class="page-subtitle">
           Descubra os valores em Real R$
         </p>
+        <label for="moeda" class="page-title">Insira o valor em dolar</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="Converter()" class="botao">Converter</button>
+        <h2 id="valorConvertido"></h2>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
