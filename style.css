@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto Mono", monospace;
-  
+  min-height: 400px;
   background-image: url(/IMG/dolar.jpg);
   background-color: #000000;
   background-size: 100%;  
@@ -63,7 +63,7 @@ h2 {
         body{
        background-repeat: no-repeat;
        background-size: auto;
-       background-size: 100%;  
+
        object-position: 90% 90%;
        
     }
