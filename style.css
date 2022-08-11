@@ -46,6 +46,10 @@ h2 {
   font-size: 30px;
 }
 
+#valorConvertido{
+  color: #000000;
+}
+
 .botao{
     padding: 5px 20px;
     font-size: 18px;
