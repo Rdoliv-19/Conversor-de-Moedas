@@ -2,6 +2,8 @@
 
 Conversor de moedas de dolar para real desenvolvido em JavaScript.
 
+Link do deploy: https://conversor-de-moedas-woad.vercel.app/
+
 ## :eyes: Funcionalidade
 
 Ao inserir um valor em dolar (Considerando o dolar a R$ 5,00) no input, é retornado um alerta com o valor corresponde em reais.
